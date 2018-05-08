@@ -1,0 +1,101 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.heading{
+    text-align: center;
+}
+.list{
+    border-style: inline;
+    padding: 0;
+}
+@media(max-width:768px){
+    .boxy{
+        box-sizing: border-box;
+        border: 5px solid black;
+        background-color: grey;
+        list-style: none;
+        width: 80%;
+        float: left;
+        margin: 10px;
+    }
+    .subhead{
+        box-sizing: border-box;    
+        position: relative;
+        border: 2px solid black;
+        width: 40%;
+        height: auto;
+        text-align: center;
+        top: 0;
+        left: 60%;
+        padding: 0 0 0 0;
+        margin: 0;
+        border-style: inline;
+    }
+    #sush{
+        width: 80%;
+    }
+}
+@media(min-width:768px){
+    .boxy{
+        box-sizing: border-box;
+        border: 5px solid black;
+        background-color: grey;
+        list-style: none;
+        width: 40%;
+        float: left;
+        margin: 10px;
+    }
+    .subhead{
+        box-sizing: border-box;    
+        position: relative;
+        border: 2px solid black;
+        width: 40%;
+        height: auto;
+        text-align: center;
+        top: 0;
+        left: 60%;
+        padding: 0 0 0 0;
+        margin: 0;
+        border-style: inline;
+    }
+    #sush{
+        width: 83%;
+    }
+}
+@media(min-width:992px){
+.boxy{
+    box-sizing: border-box;
+    border: 5px solid black;
+    background-color: grey;
+    list-style: none;
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+.subhead{
+    box-sizing: border-box;    
+    position: relative;
+    border: 2px solid black;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    top: 0;
+    left: 60%;
+    padding: 0 0 0 0;
+    margin: 0;
+    border-style: inline;
+}
+#sush{
+    width: 30%;
+}
+}
+
+#chicken {
+    background-color: red;
+}
+#beef {
+    background-color: peachpuff;
+}
+#sushi {
+    background-color: blue;
+}
