@@ -1,0 +1,38 @@
+.navbar {
+    margin-bottom: 0px;
+}
+nav{
+    /* height: 60px; */
+    padding-bottom: 8px; 
+}
+.navbar-brand {
+    padding: 0px;
+}
+#brand-name {
+    margin-top:10px;
+    margin-left: 
+}
+.dropdown{
+    text-align: center;
+}
+.nav li a {
+    padding-top: 5px;
+    padding-bottom:  5px;
+}
+.navbar-default .navbar-nav li a:hover{
+ 
+}
+.text-center {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row{
+    box-sizing: border-box;
+}
+.dishes {
+    background-color: gray;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
